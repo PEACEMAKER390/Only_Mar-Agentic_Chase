@@ -54,7 +54,7 @@ The application combines an LLM-powered conversational interface with Python-bas
 7. **Report Generation:** Users can download an assessment report.
 
 ### Architectural Approach
-
+- **Eligibility Separation:** LLM-generated reasoning is separated from deterministic eligibility checks to reduce reliance on AI-generated eligibility decisions.
 - **LLM Layer:** Natural-language understanding, contextual questioning, and tool orchestration.
 - **Tool Layer:** Dedicated Python functions for agent operations.
 - **Eligibility Layer:** Deterministic Python logic for predefined eligibility conditions.
